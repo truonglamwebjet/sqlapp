@@ -12,7 +12,6 @@ namespace sqlapp.Pages
         {
             ProductService productService = new ProductService();
             Products = productService.GetProducts();
-
         }
     }
 }
